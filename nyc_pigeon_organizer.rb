@@ -7,6 +7,8 @@ def nyc_pigeon_organizer(data)
         if pigeon_list.has_key?(value) == false
           pigeon_list[value] = {attribute => [key.to_s]}
         elsif pigeon_list[value].has_key?(key) == false
+          puts key.to_s
+          binding.pry
           pigeon_list[value][attribute] << key.to_s
         end
       end
