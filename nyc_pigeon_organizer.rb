@@ -5,5 +5,6 @@ def nyc_pigeon_organizer(data)
     nestHash.each do |key, valueArr|
       
   binding.pry
+    end
   end
 end
