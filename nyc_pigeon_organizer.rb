@@ -10,6 +10,7 @@ def nyc_pigeon_organizer(data)
           pigeon_list[value][attribute] << key.to_s
         end
       end
+      binding.pry
     end
   binding.pry
   end
